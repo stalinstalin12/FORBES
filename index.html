@@ -17,9 +17,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fw-bold">
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark fw-bold">
         <div class="container mt-5 pt-4">
-            <div class="dropdown">
+            <div class="dropdown d-md-none d-sm-none d-xs-none d-lg-block">
                 <a class="btn btn-dark border-0 " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="img/icons8-menu-24.png" alt="">
                 </a>
@@ -33,22 +33,23 @@
           <a class="navbar-brand" href="#">
             <img src="img/forbes-logo.png" alt="" height="35px" width="110px">
           </a>
-          <div class="dropdown ">
-            <a class="btn btn-dark border-0 dropdown-toggle fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-              LEADERSHIP
-            </a>
           
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+              <div class="dropdown ">
+                <a class="btn btn-dark border-0 dropdown-toggle fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  LEADERSHIP
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
               <a class="nav-link active" aria-current="page" href="#">INNOVATION</a>
               <a class="nav-link active" href="#">BILLIONAIRES</a>
               <a class="nav-link active" href="#">LISTS</a>
@@ -90,9 +91,9 @@
       </div>
       <div class="container mt-4" >
        <div class="row">
-        <div class="col-9">
+        <div class="col-lg-9">
           <div class="row">
-            <div class="col-7 position-relative ">
+            <div class="col-lg-7 position-relative ">
               <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
                 <div class="carousel-indicators position-absolute top-100">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -126,7 +127,7 @@
                 </button>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-lg-5">
               <div class="row a">
                 <a href="" class="text-primary text-decoration-none mt-2">NEWS</a> <br>
                 <span class="fw-bold sdsd">T20 World Cup Victory Parade: A celebration like no other</span>
@@ -151,7 +152,7 @@
           </div>
           <img class="mt-5" src="img/bg.png" alt="" width="100%">
         </div>
-        <div class="col-3  position-relative">
+        <div class="col-lg-3  position-relative">
           <div class="row">
           <img  src="img/rocketboys.jpg" alt="" width="100%" height="40%" class=" pt-5">
           <div class="position-absolute d-flex flex-column justify-content-center align-items-center border border-danger border-4 rounded-circle bg-light" style="height: 100px; width: 100px; top: 60%;left: 70%;">
@@ -167,30 +168,30 @@
         </div>
         </div>
         <div class="row">
-          <div class="col-9">
+          <div class="col-lg-9">
             <div class="row">
-              <div class="col-3">
+              <div class="col-lg-3">
                 <button type="button" class="btn btn-primary text-light" style="font-size: smaller;">BEYOND THE BOARDROOM</button>
                 <a href="" class="text-dark text-decoration-none class fw-bold"><p class="fs-6">The story behind Ajay Bijli's PVR - and when the honcho turned singer</p></a>
                 <p class="mt-2" style="font-size: smaller; color: gray;">By <a href="" class="fw-bold text-dark text-decoration-none"> Tejeesh Nippun Singh</a></p>
                 <p style="font-size: smaller;">Ajay Bijli is the managing director of PVR-INOX, the country's la <a class="text-decoration-none" href=""> read more ...</a></p>
                 <p class="fs-6 fw-lighter">----------------------------------</p>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <button type="button" class="btn btn-success text-light" style="font-size: smaller;">LIFE</button>
                 <a href="" class="text-dark text-decoration-none fw-bold"><p class="fs-6">Slow art: The master illuminator of Tehran</p></a>
                 <p class="mt-2" style="font-size: smaller; color: gray;">By <a href="" class="fw-bold text-dark text-decoration-none">  AFPRelaxnews</a></p>
                 <p style="font-size: smaller;">In the age of AI-assisted graphic design on computer screens, the cent <a class="text-decoration-none" href=""> read more ...</a></p>
                 <p class="fs-6 fw-lighter">-----------------------------------</p>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <button type="button" class="btn btn-success text-light" style="font-size: smaller;">LIFE</button>
                 <a href="" class="text-dark text-decoration-none fw-bold"><p class="fs-6">Zarny: Myanmar refugee turned Tokyo designer</p></a>
                 <p class="mt-2" style="font-size: smaller; color: gray;">By <a href="" class="fw-bold text-dark text-decoration-none"> AFPRelaxnews</a></p>
                 <p style="font-size: smaller;">Zarny's parents came to Japan as political refugees in 1993 when <a class="text-decoration-none" href=""> read more ...</a></p>
                 <p class="fs-6 fw-lighter">---------------------------------</p>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <button type="button" class="btn btn-success text-light" style="font-size: smaller;">LIFE</button>
                 <a href="" class="text-dark text-decoration-none fw-bold"><p class="fs-6">Swiss collection of Impressionist masterpieces shines under a new light</p></a>
                 <p class="mt-2" style="font-size: smaller; color: gray;">By <a href="" class="fw-bold text-dark text-decoration-none"> AFPRelaxnews</a></p>
@@ -199,21 +200,21 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-4" style="width: 17vw;">
+              <div class="col-lg-4" style="width: 17vw;">
                 <img src="img/deeptechstartups.jpg" alt="" width="100%">
                 <button type="button" class="btn text-light mt-3" style="font-size: smaller; background: rgba(129, 7, 58, 0.815);">INNOVATION</button>
                 <a href="" class="text-dark text-decoration-none fw-bold"><p class="fs-6">Swiss collection of Impressionist masterpieces shines under a new light</p></a>
                 <p class="mt-2" style="font-size: smaller; color: gray;">By <a href="" class="fw-bold text-dark text-decoration-none"> AFPRelaxnews</a></p>
                 <p style="font-size: smaller;">Around 50 paintings, including works by Pierre-Auguste Renoir, Paul Ce<a class="text-decoration-none" href=""> read more ...</a></p>
               </div>
-              <div class="col-4" style="width: 17vw;">
+              <div class="col-lg-4" style="width: 17vw;">
                 <img src="img/students_unacademy_012_sm.jpg" alt="" width="100%">
                 <button type="button" class="btn text-light mt-3" style="font-size: smaller ;background: rgba(129, 7, 58, 0.849);">INNOVATION</button>
                 <a href="" class="text-dark text-decoration-none fw-bold"><p class="fs-6">Swiss collection of Impressionist masterpieces shines under a new light</p></a>
                 <p class="mt-2" style="font-size: smaller; color: gray;">By <a href="" class="fw-bold text-dark text-decoration-none"> AFPRelaxnews</a></p>
                 <p style="font-size: smaller;">Around 50 paintings, including works by Pierre-Auguste Renoir, Paul Ce<a class="text-decoration-none" href=""> read more ...</a></p>
               </div>
-              <div class="col-4" style="width: 17vw;">
+              <div class="col-lg-4" style="width: 17vw;">
                 <img src="img/spacelaunch.jpg" alt=""width="100%">
                 <button type="button" class="btn text-light mt-3" style="font-size: smaller; background: rgba(83, 22, 153, 0.897);">TAKE ONE: BIG STORY OF THE DAY</button>
                 <a href="" class="text-dark text-decoration-none fw-bold"><p class="fs-6">Swiss collection of Impressionist masterpieces shines under a new light</p></a>
@@ -222,7 +223,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-5 p-2">
+              <div class="col-lg-5 p-2">
                 <div class="row">
                   <a href="" class="text-decoration-none" style="font-size: smaller; color: rgba(148, 27, 27, 0.897);">INNOVATION</a>
                   <a href="" class="mt-2 text-dark text-decoration-none fw-bold"><p class="fs-6">From Aerostrovilos to Bellatrix Aerospace: Deeptech startups, one year on</p></a>
@@ -249,7 +250,7 @@
                   <p class="" style="font-size: smaller; color: gray;">By <a href="" class="fw-bold text-dark text-decoration-none"> Divya J Shekhar</a></p>
                 </div>
               </div>
-              <div class="col-7">
+              <div class="col-lg-7">
                 <div class="img p-3">
                 <img class="" src="img/modi.jpg" alt="" width="100% ">
                 <button type="button" class=" btn text-light mt-3" style="font-size: smaller;background: rgb(48, 88, 161);">PHOTO OF THE DAY</button>
@@ -264,17 +265,17 @@
             <img src="img/bg.png" alt="" width="100%">
             <div class="row mt-2">
               <h1 class="fw-bold">Popular Now</h1>
-            <div class="col-4">
+            <div class="col-lg-4">
               <img src="img/img_236520_dennis_woodside.jpg" alt="" width="100%">
               <button type="button" class="btn text-light mt-3" style="font-size: smaller ;background: rgba(209, 124, 13, 0.795);">LEADERSHIP</button>
               <a href="" class=" text-dark text-decoration-none fw-bold"><p class=" mt-3 fs-5">"We will tap our India advantage for international expansion": Freshworks CEO</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
               <img src="img/img_236517_russia_indiapoliticaldiplomacy.jpg" alt="" width="100%">
               <button type="button" class="btn text-light mt-3" style="font-size: smaller ;background: rgba(209, 124, 13, 0.849);">PHOTO OF THE DAY</button>
               <a href="" class=" text-dark text-decoration-none fw-bold"><p class="fs-5 mt-3">Photo of the day: Balancing equations</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
               <img src="img/img_236514_prashantjain.jpg" alt="" width="100%">
               <button type="button" class="btn text-light mt-3" style="font-size: smaller ;background: rgba(66, 3, 148, 0.781);">TAKE ONE: BIG STORY OF THE DAY</button>
               <a href="" class=" text-dark text-decoration-none fw-bold"><p class=" mt-3 fs-5">There isn't room for current market multiples to move up: Prashant Jain</p></a>
@@ -282,7 +283,7 @@
           </div>
 
           </div>
-          <div class="col-3">
+          <div class="col-lg-3">
             <div class="row card text-white" style="margin-top: 200px;">
               <img src="img/NBN-logo6.jpg" class="card-img" alt="..." width="100%">
               <div class=" p-4 card-img-overlay">
@@ -293,26 +294,26 @@
             </div>
             <div class="row mt-3">
               <a href="" class="text-decoration-none" style="font-size: smaller; color: rgb(3, 10, 117);">NEWS</a>
-              <div class="col-4">
+              <div class="col-md-4">
                 <img src="img/img_236384_climateesg.jpg" alt="" width="100%">
               </div>
-              <div class="col-8">
+              <div class="col-lg-8">
                 <p class=" fw-bold" style="font-size: smaller;">Linking CEO Compensation with ESG markets is the worst idea: Rajeev Peshawaria</p>
               </div>
             </div>
             <div class="row mt-3">
               <a href="" class="text-decoration-none" style="font-size: smaller; color: rgba(69, 0, 160, 0.795);">TAKE ONE: BIG STORY OF THE DAY</a>
-              <div class="col-4">
+              <div class="col-md-4">
                 <img src="img/img_236514_prashantjain.jpg" alt="" width="100%">
               </div>
-              <div class="col-8">
+              <div class="col-lg-8">
                 <p class=" fw-bold" style="font-size: smaller;">MNCs selling stake is a very important signal: 3P Investment's Prashant Jain</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid"></div>
+      <div class="container-fluid bg-dark"> ...</div>
  
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
